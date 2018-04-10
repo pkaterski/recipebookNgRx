@@ -1,0 +1,20 @@
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    color: rgb(255, 142, 160)
+}
+
+a.navbar-brand:hover {
+    color: rgb(252, 78, 107)
+}
+
+.drop-show {
+    /* background-color: #ddd; */
+    /* background-color: #222; */
+}
+
+.drop-show > li > div.dropdown-menu {
+    display: block;
+}

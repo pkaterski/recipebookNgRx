@@ -1,0 +1,11 @@
+<a [routerLink]="['/recipes', index]" routerLinkActive="active" class="list-group-item list-group-item-action">
+  <div class="d-flex flex-row">
+    <div class="d-flex flex-column">
+      <h4>{{ recipe.name }}</h4>
+      <p class="list-group-item-text">{{ recipe.description }}</p>
+    </div>
+    <span class="ml-auto">
+      <img [src]="recipe.imagePath" alt="food" class="img-fluid" style="max-height: 80px">
+    </span>
+ </div>
+</a>

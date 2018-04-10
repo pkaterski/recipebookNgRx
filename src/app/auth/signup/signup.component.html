@@ -1,0 +1,18 @@
+<div class="mx-auto" style="width:50vw">
+  <div class="card" style="width:100%">
+    <div class="card-header">Sign Up</div>
+    <div class="card-body">
+      <form (ngSubmit)="onSignup(f)" #f="ngForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" class="form-control" ngModel>
+        </div>
+        <button class="btn btn-primary">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</div>
